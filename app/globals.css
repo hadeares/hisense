@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'hisense';
+    src: url('/HisenseSansAlfabet-Bold.otf') format('opentype');
+    src: url('/HisenseSansAlfabet-Light.otf') format('opentype');
+    src: url('/HisenseSansAlfabet-Medium.otf') format('opentype');
+    src: url('/HisenseSansAlfabet-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'hisense', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.glass {
+    background: rgba(15, 15, 15, 0.347);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.carousel .swiper-button-prev {
+    color: white;
+    left: 2%;
+}
+
+.carousel .swiper-button-next {
+    color: white;
+    right: 3%;
+}
+
+.products-carousel .swiper-wrapper {
+    height: 400px;
+}
+
+.swiper-pagination-bullet {
+    background-color: gray !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #00b3ac !important;
+    width: 20px !important;
+    border-radius: 1rem !important;
+    transition: 300ms ease-in-out !important;
+}
+
+.product-swiper {
+    margin-bottom: 20px;
+}
+
+.product-swiper .swiper-button-next {
+    color: rgb(194, 194, 194);
+    width: 5px;
+}
+
+.product-swiper .swiper-button-prev {
+    color: rgb(194, 194, 194);
+    width: 5px;
+}
+
+.product-swiper2 .swiper-slide {
+    border: 1px solid #dfdfdf;
+    opacity: 0.7;
+    padding: 10px;
+}
+
+.product-swiper2 .swiper-slide-thumb-active {
+    border: 1px solid #00b3ac;
+    opacity: 1;
+}
+
+@media (max-width: 780px) {
+    .carousel .swiper-button-prev {
+        left: 2%;
+    }
+
+    .carousel .swiper-button-next {
+        right: 4%;
+    }
+}
