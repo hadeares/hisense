@@ -139,18 +139,6 @@ export default function PisoTeto() {
                 logo: '/clima-rio.png',
                 link: 'https://www.climario.com.br/split-hisense-pt-36k-220v-f-inv-r32-2/p',
                 description: '36.000 BTU (Frio)'
-            },
-            {
-                name: 'Carrefour',
-                logo: '/carrefour.png',
-                link: 'https://www.carrefour.com.br/ar-condicionado-split-piso-teto-hisense-inverter-36000-btus-frio-220v-r32-mp938056460/p',
-                description: '36.000 BTU (Frio)'
-            },
-            {
-                name: 'Casas Bahia',
-                logo: '/casas_bahia.png',
-                link: 'https://www.casasbahia.com.br/ar-condicionado-split-piso-teto-hisense-inverter-36000-btus-frio-220v-r-32/p/1567968922?utm_campaign=DescontoEspecial&utm_medium=BuscaOrganica&utm_source=Google',
-                description: '36.000 BTU (Frio)'
             }
         ],
 
@@ -402,7 +390,7 @@ export default function PisoTeto() {
                                                 onClick={() => handleCategoryChange(product.name)}
                                                 className={`text-lg lg:text-md border border-gray-400 text-gray-500 px-5 lg:px-4 pt-1 rounded-2xl cursor-pointer duration-300 hover:border-hisense hover:bg-hisense hover:text-white ${selectedCategory === product.name ? 'bg-hisense text-white border-hisense' : ''}`}
                                             >
-                                                {product.name}
+                                                {'Piso Teto'}
                                             </span>
                                         ))}
                                     </div>
@@ -450,7 +438,7 @@ export default function PisoTeto() {
                             <div className="mt-5 px-3">
                                 {productProps ? (
                                     <>
-                                        <h4 className="text-2xl font-bold">{productProps.copy}</h4>
+                                        <h4 className="text-2xl font-bold">{'Piso Teto'}</h4>
 
                                         <div className="lg:flex items-center text-gray-600 gap-4 mt-5">
                                             <h4 className="text-lg">Capacidade:</h4>

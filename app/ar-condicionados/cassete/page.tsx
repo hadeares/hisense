@@ -131,17 +131,17 @@ export default function Cassete() {
     const storeLinks: StoreLinks = {
         '36.000 BTU 220v AUC_36TR4RKKA': [
             {
-                name: 'Casas Bahia',
-                logo: '/casas_bahia.png',
-                link: 'https://www.casasbahia.com.br/ar-condicionado-split-cassete-4-vias-hisense-inverter-36000-btus-frio-220v-r-32/p/1567968918?utm_source=GP_PLA&utm_medium=Cpc&utm_campaign=3p_gg_pmax_arve_b',
+                name: 'Clima Rio',
+                logo: '/clima-rio.png',
+                link: 'https://www.climario.com.br/ar-condicionado-split-cassete-4-vias-hisense-inverter-36-000-btus-frio-220v-r-32-auw-36t4rk/p',
                 description: '36.000 BTU (Frio)'
             }
         ],
         '60.000 BTU 220v AUC_60TR6RKKA_Quente_Frio': [
             {
-                name: 'Casas Bahia',
-                logo: '/casas_bahia.png',
-                link: 'https://www.casasbahia.com.br/ar-condicionado-split-cassete-4-vias-hisense-36000-btus/p/1569762858?utm_source=GP_PLA&utm_medium=Cpc&utm_campaign=3p_gg_pmax_arve_b',
+                name: 'Clima Rio',
+                logo: '/clima-rio.png',
+                link: 'https://www.climario.com.br/ar-condicionado-split-cassete-4-vias-hisense-inverter-55-000-btus-frio-220v-r-32-auw-60u2rn/p',
                 description: '60.000 BTU (Quente/Frio)'
             }
         ],
@@ -449,7 +449,7 @@ export default function Cassete() {
                                     <Image src={productProps.productImages[0]} alt={productProps.name} width={252} height={32} />
                                 </div>
                                 <div className="mt-5 px-3">
-                                    <h4 className="text-2xl font-bold">{productProps.copy}</h4>
+                                    <h4 className="text-2xl font-bold">{'Cassete'}</h4>
 
                                     {/* Filtros no Modal: Capacidade | Voltagem | Modelo */}
                                     {/* Capacidade */}
